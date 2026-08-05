@@ -1,0 +1,550 @@
+{
+  "gameitems": [
+    {
+      "name": "All",
+      "url": "/Games"
+    },
+    {
+      "name": "bullet hell",
+      "url": "/games/bullethell",
+      "items": [
+        {
+          "name": "All",
+          "url": "/games/bullethell"
+        },
+        {
+          "name": "touhou 1-5",
+          "url": "/games/bullethell/pc98",
+          "img": "/gamepage/th1-5.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH01-05).7z"
+        },
+        {
+          "name": "touhou 6",
+          "url": "/games/bullethell/6",
+          "img": "/gamepage/th6.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH06) Touhou Koumakyou ~ the Embodiment of Scarlet Devil.7z"
+        },
+        {
+          "name": "touhou 7",
+          "url": "/games/bullethell/7",
+          "img": "/gamepage/th7.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH07) Touhou Youyoumu ~ Perfect Cherry Blossom.7z"
+        },
+        {
+          "name": "touhou 8",
+          "url": "/games/bullethell/8",
+          "img": "/gamepage/th8.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH08) Touhou Eiyashou ~ Imperishable Night.7z"
+        },
+        {
+          "name": "touhou 9",
+          "url": "/games/bullethell/9",
+          "img": "/gamepage/th9.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH09) Touhou Kaeidzuka ~ Phantasmagoria of Flower View.7z"
+        },
+        {
+          "name": "touhou 10",
+          "url": "/games/bullethell/10",
+          "img": "/gamepage/th10.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH10) Touhou Fuujinroku ~ Mountain of Faith.7z"
+        },
+        {
+          "name": "touhou 11",
+          "url": "/games/bullethell/11",
+          "img": "/gamepage/th11.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH11) Touhou Chireiden ~ Subterranean Animism.7z"
+        },
+        {
+          "name": "touhou 12",
+          "url": "/games/bullethell/12",
+          "img": "/gamepage/th12.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH12) Touhou Seirensen ~ Undefined Fantastic Object.7z"
+        },
+        {
+          "name": "touhou 13",
+          "url": "/games/bullethell/13",
+          "img": "/gamepage/th13.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH13) Touhou Shinreibyou ~ Ten Desires.7z"
+        },
+        {
+          "name": "touhou 14",
+          "url": "/games/bullethell/14",
+          "img": "/gamepage/th14.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH14) Touhou Kishinjou ~ Double Dealing Character.7z"
+        },
+        {
+          "name": "touhou 15",
+          "url": "/games/bullethell/15",
+          "img": "/gamepage/th15.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH15) Touhou Kanjuden ~ Legacy of Lunatic Kingdom.7z"
+        },
+        {
+          "name": "touhou 16",
+          "url": "/games/bullethell/16",
+          "img": "/gamepage/th16.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH16) Touhou Tenkuushou ~ Hidden Star in Four Seasons.7z"
+        },
+        {
+          "name": "touhou 17",
+          "url": "/games/bullethell/17",
+          "img": "/gamepage/th17.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH17) Touhou Kikeijuu ~ Wily Beast and Weakest Creature.7z"
+        },
+        {
+          "name": "touhou 18",
+          "url": "/games/bullethell/18",
+          "img": "/gamepage/th18.png",
+          "dllink": "https://c778454.parspack.net/touhou/(TH18) Touhou Kouryuudou ~ Unconnected Marketeers.7z"
+        },
+        {
+          "name": "touhou 19",
+          "url": "/games/bullethell/19",
+          "img": "/gamepage/th19.jpg",
+          "dllink": "https://c778454.parspack.net/touhou/(TH19) Touhou Juuouen ~ Unfinished Dream of All Living Ghost.7z"
+        }
+      ]
+    },
+    {
+      "name": "Fighting",
+      "url": "/games/fighting",
+      "items": [
+        {
+          "name": "All",
+          "url": "/games/fighting"
+        },
+        {
+          "name": "hisoutensoku",
+          "url": "/games/soku",
+          "img": "/gamepage/soku.png",
+          "dllink": "/games/soku"
+        }
+      ]
+    },
+    {
+      "name": "other",
+      "url": "/games/other",
+      "items": [
+        {
+          "name": "All",
+          "url": "/games/other"
+        },
+        {
+          "name": "touhou 17.5",
+          "url": "/games/other/175"
+        }
+      ]
+    }
+  ],
+  "musicitems": [
+    {
+      "name": "official music",
+      "url": "/music/official"
+    },
+    {
+      "name": "fan music",
+      "url": "/music/fanmade"
+    }
+  ],
+  "charitems": [
+    {
+      "name": "All",
+      "url": "/characters"
+    },
+    {
+      "name": "Main",
+      "url": "/characters",
+      "items": [
+        {
+          "name": "Reimu",
+          "prt": "/chars/reimu/portrait.png",
+          "url": "/characters/reimu",
+          "fullname": "博麗霊夢 Reimu Hakurei",
+          "race": "انسان",
+          "description": "ریمو نگهبان معبد هاكوره‌ای و شخصیت اصلی مجموعه توهوئه. اون دختری آروم، خونسرد و در عین حال قدرتمنده که وظیفه‌اش حفظ تعادل بین انسان‌ها و موجودات ماورایی در گنسوکیوئه. با اینکه همیشه درگیر حل کردن مشکلات و اتفاقات عجیب می‌شه، معمولاً با کم‌ترین زحمت و بیش‌ترین موفقیت از پسشون برمیاد! ریمو به پرواز کردن، نوشیدن چای و گرفتن نذری (!) علاقه داره و تکنیک مشهورش Yin-Yang Orb بخشی از سبک مبارزه‌ی اونه.",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Maiden's Capriccio ~ Dream Battle:",
+              "url": "/chars/reimu/theme.ogg"
+            }
+          ],
+          "fansongs": ["iBr_Y579HaA", "aaNPn70htqs"],
+          "sliderimages": [
+            "/chars/reimu/slider1.jpg",
+            "/chars/reimu/slider2.jpg",
+            "/chars/reimu/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Reimu_Hakurei",
+          "leftimgoffset": "60% 25%"
+        },
+        {
+          "name": "Marisa",
+          "prt": "/chars/marisa/portrait.png",
+          "url": "/characters/marisa",
+          "fullname": "霧雨魔理沙 Marisa Kirisame",
+          "race": "انسان",
+          "description": "ماریسا یک جادوگر معمولی، یکی از دو شخصیت اصلی بازی های توهو هست که از بازی دوم وارد توهو شد.  ماریسا شخصیتی پرانرژی، خودجوش و گاهی هم لجباز داره، و به جمع‌آوری کتاب‌ها و آیتم‌های جادویی (حتی اگر صاحبشون نباشه!) علاقه‌منده. حضور پررنگش تو بیشتر بازی‌ها و رابطه‌ی بامزه‌اش با شخصیت‌هایی مثل ریمو، باعث شده یکی از محبوب‌ترین شخصیت‌های دنیا‌ی توهو باشه.",
+          "topimages": [
+            "/chars/marisa/marisa1.png",
+            "/chars/marisa/marisa2.png"
+          ],
+          "songs": [
+            {
+              "name": "Love Colored Master Spark!:",
+              "url": "/chars/marisa/theme.ogg"
+            }
+          ],
+          "fansongs": ["RNmlUFhNWw8"],
+          "sliderimages": [
+            "/chars/marisa/slider1.jpg",
+            "/chars/marisa/slider2.jpg",
+            "/chars/marisa/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Marisa_Kirisame"
+        }
+      ]
+    },
+    {
+      "name": "th6",
+      "altname": "Touhou 6",
+      "url": "/characters",
+      "items": [
+        {
+          "name": "Cirno",
+          "prt": "/chars/cirno/portrait.png",
+          "url": "/characters/cirno",
+          "fullname": "チルノ Cirno",
+          "race": "پری",
+          "description": "چیرنو یه پری یخی بازیگوش و پرانرژیه که خودش رو «باهوش‌ترین» موجود گنسوکیو می‌دونه! با اینکه از نظر قدرت جزو شخصیت‌های ضعیف‌تر به حساب میاد، ولی اعتماد‌به‌نفس بالا و حضور بامزه‌ش باعث شده یکی از محبوب‌ترین شخصیت‌های توهو بشه. چیرنو توانایی کنترل یخ و سرما رو داره و معمولاً اطراف دریاچه‌ی مه‌آلود پیدا می‌شه. عدد ⑨ هم به شوخی به عنوان «شماره‌ی سادگی» بهش نسبت داده شده!",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Beloved tomboyish girl:",
+              "url": "/chars/cirno/theme.ogg"
+            }
+          ],
+          "fansongs": ["GNeyqFfXf7k", "7h7bnYA1LXE", "e4WnqqwdrcU"],
+          "fangames": [
+            {
+              "name": "Hero Of Ice Fairy",
+              "prt": "/chars/cirno/game1.webp",
+              "url": "https://store.steampowered.com/app/1955830/Touhou_Hero_of_Ice_Fairy"
+            }
+          ],
+          "sliderimages": [
+            "/chars/cirno/slider1.jpg",
+            "/chars/cirno/slider2.jpg",
+            "/chars/cirno/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Cirno",
+          "leftimgoffset": "100%"
+        },
+        {
+          "name": "Remilia",
+          "prt": "/chars/remilia/portrait.png",
+          "url": "/characters/remilia",
+          "fullname": "Remilia Scarlet",
+          "race": "خون‌آشام",
+          "description": "رمیلیا یه خون‌آشام قدرتمند و بانوی عمارت اسکارلت در گنسوکیوئه. با اینکه ظاهرش شبیه یه دختر بچه‌ست، ولی در واقع سنی چند صد ساله داره! شخصیتش مغرور، باوقار و گاهی هم خودرأیه، اما رفتارش همیشه جدی نیست—گاهی هم بامزه و حتی کودکانه می‌شه. قدرت اصلی رمیلیا کنترل سرنوشت‌هاست، و با حمله‌ی معروفش Spear the Gungnir شناخته می‌شه. خواهر کوچیک‌ترش، فلاندره، هم یکی از ساکنان مرموز عمارتشه.",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Septette for a Dead Princess",
+              "url": "/chars/remilia/theme.ogg"
+            }
+          ],
+          "fansongs": ["7h7bnYA1LXE", "9r-NyQ_DCx4", "qD264sfXaT8"],
+          "sliderimages": [
+            "/chars/remilia/slider1.jpg",
+            "/chars/remilia/slider2.jpg",
+            "/chars/remilia/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Remilia_Scarlet",
+          "leftimgoffset": "85% 10%"
+        },
+        {
+          "name": "Flandre",
+          "prt": "/chars/flandre/portrait.png",
+          "url": "/characters/flandre",
+          "fullname": "Flandre Scarlet",
+          "race": "خون‌آشام",
+          "description": "فلاندره خواهر کوچکتر رمیلیا و یکی از مرموزترین شخصیت‌های توهوئه. با اینکه ظاهری معصوم و کودکانه داره، قدرتش بسیار زیاده و کنترلش سخته؛ به همین دلیل سال‌هاست در زیرزمین عمارت اسکارلت زندانی شده. فلاندره شخصیتی ترکیبی از معصومیت، جنون و کنجکاوی داره. حمله‌ی معروفش Laevatein و توانایی نابود کردن هر چیزی با شناخت \"هسته‌ی وجودی\" اون، از نمادهای قدرت ترسناکشه. با همه‌ی این‌ها، هنوز هم یه کودک تنهاست که دنبال بازی و ارتباط با دیگرانه.",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "U.N. Owen Was Her",
+              "url": "/characters/flandre/theme.ogg"
+            }
+          ],
+          "fansongs": [
+            "cvEC00eLkns",
+            "wEwnEeq23SY",
+            "_VH91mivTUw",
+            "qD264sfXaT8",
+            "YUUFtUjiblk"
+          ],
+          "sliderimages": [
+            "/chars/flandre/slider1.jpg",
+            "/chars/flandre/slider2.jpg",
+            "/chars/flandre/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Flandre_Scarlet",
+          "leftimgoffset": "10%"
+        },
+        {
+          "name": "Sakuya",
+          "prt": "/chars/sakuya/portrait.png",
+          "url": "/characters/sakuya",
+          "fullname": "十六夜咲夜 Sakuya Izayoi",
+          "race": "انسان",
+          "description": "ساکویا سرپرست خدمتکاران عمارت اسکارلته و با کنترل زمان، نماد انضباط و دقت در توهو محسوب می‌شه. او با توانایی‌های خارق‌العاده‌ش، هم نظم رو در عمارت حفظ می‌کنه و هم در نبردها به کمک رمیلیا میاد. سبک سرد و محکمش همراه با ظرافت در حرکات، تصویری جذاب از قدرت و کارآیی رو به نمایش می‌ذاره.",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "The Maid and the Pocket Watch of Blood",
+              "url": "/chars/sakuya/theme1.ogg"
+            }
+          ],
+          "fansongs": ["vS_a8Edde8k"],
+          "fangames": [
+            {
+              "name": "Luna Nights",
+              "prt": "/chars/sakuya/game1.png",
+              "url": "https://store.steampowered.com/app/851100/Touhou_Luna_Nights/"
+            },
+            {
+              "name": "I Am Sakuya",
+              "url": "https://store.steampowered.com/app/1960590/I_Am_Sakuya_Touhou_FPS_Game/",
+              "prt": "/chars/sakuya/game2.jpg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/sakuya/slider1.jpg",
+            "/chars/sakuya/slider2.jpg",
+            "/chars/sakuya/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Sakuya_Izayoi",
+          "leftimgoffset": "10%"
+        },
+        {
+          "name": "Patchouli",
+          "prt": "/chars/patchouli/portrait.png",
+          "url": "/characters/patchouli",
+          "fullname": "Patchouli Knowledge",
+          "race": "یوکای",
+          "description": "",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Locked Girl ~ The Girl's Secret Room",
+              "url": "/chars/patchouli/theme.ogg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/patchouli/slider1.jpg",
+            "/chars/patchouli/slider2.jpg",
+            "/chars/patchouli/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Patchouli_Knowledge",
+          "leftimgoffset": "0% 10%"
+        },
+        {
+          "name": "Meiling",
+          "prt": "/chars/meiling/portrait.png",
+          "url": "/characters/meiling",
+          "fullname": "紅 美鈴 Hong Meirin",
+          "race": "یوکای",
+          "description": "هونگ می‌لینگ نگهبان دروازه‌ی عمارت اسکارلت است. او دختری مهربان و آرام با توانایی کنترل \"چی\" (انرژی درونی) است و سبک مبارزه‌اش ترکیبی از هنرهای رزمی چینی و جادوست. با اینکه شغلش نگهبانیه، اما اغلب به خاطر خواب‌آلود بودن یا حواس‌پرتی‌، اجازه می‌ده دیگران از دروازه رد بشن! شخصیتی خوش‌قلب و صلح‌طلبه که بیشتر ترجیح می‌ده با گفتگو مشکلات رو حل کنه، اما وقتی لازم باشه، مهارت زیادی توی مبارزه داره. با اینکه توی داستان‌های رسمی حضور زیادی نداره، بین هواداران بسیار محبوبه، مخصوصاً به خاطر وفاداریش به عمارت اسکارلت و رابطه‌ی دوستانه‌ش با شخصیت‌هایی مثل ساکویا و فلاندره.",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Shanghai Alice of Meiji 17",
+              "url": "/chars/meiling/theme.ogg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/meiling/slider1.jpg",
+            "/chars/meiling/slider2.jpg",
+            "/chars/meiling/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Hong_Meiling",
+          "leftimgoffset": "30% 0%"
+        }
+      ]
+    },
+    {
+      "name": "th7",
+      "altname": "Touhou 7",
+      "url": "/characters",
+      "items": [
+        {
+          "name": "Chen",
+          "prt": "/chars/chen/portrait.png",
+          "url": "/characters/chen",
+          "fullname": "Chen",
+          "race": "نکوماتا",
+          "description": "",
+          "topimages": [],
+          "songs": [
+            {
+              "name": "Diao ye zong (Withered Leaf)",
+              "url": "/chars/chen/theme.ogg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/chen/slider1.jpg",
+            "/chars/chen/slider2.jpg",
+            "/chars/chen/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Chen",
+          "leftimgoffset": "30% 0%"
+        },
+        {
+          "name": "Alice",
+          "prt": "/chars/alice/portrait.png",
+          "url": "/characters/alice",
+          "fullname": "Alice Margatroid",
+          "race": "یوکای",
+          "description": "",
+          "topimages": [],
+          "songs": [
+            { "name": "Doll Judgement", "url": "/chars/alice/theme.ogg" }
+          ],
+          "sliderimages": [
+            "/chars/alice/slider1.jpg",
+            "/chars/alice/slider2.jpg",
+            "/chars/alice/slider3.jpg"
+          ],
+          "wikiurl": "https://en.touhouwiki.net/wiki/Alice_Margatroid",
+          "leftimgoffset": "30% 0%"
+        },
+        {
+          "name": "Youmu",
+          "prt": "/chars/youmu/portrait.png",
+          "url": "/characters/youmu"
+        },
+        {
+          "name": "Yuyuko",
+          "prt": "/chars/yuyuko/portrait.png",
+          "url": "/characters/yuyuko"
+        },
+        {
+          "name": "Yukari",
+          "prt": "/chars/yukari/portrait.png",
+          "url": "/characters/yukari"
+        }
+      ]
+    },
+    {
+      "name": "th8",
+      "altname": "Touhou 8",
+      "url": "/characters",
+      "items": [
+        {
+          "name": "Tewi",
+          "prt": "/chars/tewi/portrait.png",
+          "url": "/characters/tewi"
+        },
+        {
+          "name": "Reisen",
+          "prt": "/chars/reisen/portrait.png",
+          "url": "/characters/reisen",
+          "full name": "Reisen Udongein Inaba (鈴仙優曇華院イナバ)",
+          "race": "خرگوش ماه",
+          "description": "ریزین اودونگین اینابا یک خرگوش ماه سابق است که پس از فرار از ماه، در ایعینتی ساکن شد و به عنوان شاگرد و دستیار پزشکی، به ایرین خدمت میکند.\n\nریزین شخصیتی بسیار سازگار با شرایط دارد و بسته به موقعیت، رفتار خود را کاملاً تغییر می‌دهد.\nبه گفته زون طراحی لباس او نیز برای القای همین شخصیت ناپایدار انجام شده است.\nاز آنجا که ریزین در اصل اهل زمین نیست، هرگز نتوانسته رابطه‌ای صمیمی با انسان‌ها برقرار کند و معمولاً در کنار آن‌ها احساس راحتی نمی‌کند.",
+          "songs": [
+            {
+              "name": "Lunatic Eyes ~ Invisible Full Moon",
+              "url": "/chars/reisen/theme.ogg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/reisen/65.jpg",
+        	"/chars/reisen/IMG_20250310_200828_345.jpg",
+        	"/chars/reisen/IMG_20250311_190516_777.jpg",
+        	"/chars/reisen/Konachan.com - 32758 sample.jpg",
+        	"/chars/reisen/Screenshot_20230712-000529_Touhou LostWord.jpg",
+        	"/chars/reisen/stfu_lcfc.jpg",
+        	"/chars/reisen/Untitled-2.png"
+          ],
+          "leftimgoffset": "center 10%"
+        },
+        {
+          "name": "Eirin",
+          "prt": "/chars/eirin/portrait.png",
+          "url": "/characters/eirin",
+          "full name": "Yagokoro Eirin (八意 永琳)",
+          "race": "لوناری",
+          "description": "ایرین در کنار خدای ماه، تسوکویومی، در ساخت پایتخت ماه نقش داشت. او پس از مدتی همراه با کاگویا هورایسان از ماه فرار کرد و به زمین پناه آورد.\n\nایرین یک کماندار ماهر و نابغه‌ای در پزشکی است. او با کمک کاگویا ، اکسیر هورای را ساخت، دارویی که مصرف کننده را جاودان میکند. پس از تبعید کاگویا، ایرین تصمیم گرفت به جای بازگرداندن او به ماه، در کنار او روی زمین بماند و از آن زمان هر دو در ایعینتی زندگی می‌کنند.\n\nایرین فردی مرموز و بسیار باهوش است, او معمولاً رفتاری آرام و مودب دارد و از کاگویا مراقبت می‌کند، همچنین، به دلیل زندگی طولانی در میان لوناری‌ها، در برخی موقعیت‌ها درک چندانی از رفتارهای معمول انسان‌ها ندارد.",
+          "songs": [
+            {
+              "name": "History of the Moon",
+              "url": "/chars/eirin/theme.ogg"
+            }
+          ],
+          "sliderimages": [
+            "/chars/eirin/1160617.png",
+        	"/chars/eirin/751893.jpg",
+        	"/chars/eirin/879912.jpg",
+        	"/chars/eirin/922480.png",
+        	"/chars/eirin/FkvdgTtaYAEi-1Q.jpg",
+        	"/chars/eirin/roirw.png"
+
+          ],
+          "leftimgoffset": "25% 20%"
+        },
+        {
+          "name": "Kaguya",
+          "prt": "/chars/kaguya/portrait.png",
+          "url": "/characters/kaguya",
+          "full name": "Kaguya Houraisan (蓬莱山　輝夜)",
+          "race": "لوناری",
+          "description": "کاگویا شاهزاده‌ای لوناری و جاودانه است که پس از نوشیدن اکسیر هورای، از پایتخت ماه تبعید شد و اکنون همراه با ایرین یاگوکورو در ایعینتی زندگی می‌کند.\n\nاول کاگویا شخصیتی خودخواه داشت و انسان‌های زمین را پایین‌تر از خود میدید. اما پس از تبعید و سال‌ها زندگی روی زمین، کم‌کم دیدگاهش تغییر کرد.\n\nاز آنجا که خدمتکارانش بیشتر کارهای ایعینتی را انجام می‌دهند، کاگویا مسئولیت چندانی بر عهده ندارد و حوصله اش سر میرود.\n\nزیبایی‌ کاگویا همیشه باعث جلب توجه دیگران احساس می‌کرد حتی بدون انجام کار خاصی، بیش از حد در مرکز توجه قرار می‌گیرد و از این خوشش نمی‌آمد.\n او در گنسوکیو احساس آرامش بیشتری کرد، زیرا اینجا، دیگر ظاهر یا جایگاهش چیز عادی ای محسوب می‌شد",
+          "songs": [
+            {
+              "name": "Flight of the Bamboo Cutter ~ Lunatic Princess",
+              "url": "/chars/kaguya/theme.ogg"
+            }
+          ],
+          "leftimgoffset": "20% 10%",
+
+          "sliderimages": [
+        "/chars/kaguya/1289831.png",
+        "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_orita_enpitsu__230778c740b852c22dbbd57f18189fe0.jpg",
+        "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_ringo_no_usagi__sample-33f1679ecc2ae53e9010ce9054970e66.jpg",
+        "/chars/kaguya/thumb-1920-970247.jpg"
+          ]
+        },
+        {
+          "name": "Mokou",
+          "prt": "/chars/mokou/portrait.png",
+          "url": "/characters/mokou",
+          "full name": "Fujiwara no Mokou (藤原 妹紅)",
+          "race": "انسان",
+          "description": "موکو یک انسان نامیرا با توانایی کنترل آتش است که تقریباً از ۱۳۰۰ سال پیش با نوشیدن اکسیر هورای جاودانه شد. پس از آنکه پدرش به‌ خاطر ناتوانی در انجام یکی از درخواست‌ های غیر ممکن کاگویا تحقیر شد، موکو اکسیر هورای را دزدید و نوشید تا از کاگویا انتقام بگیرد. او از انسان‌ها در برابر یوکای‌ها محافظت می‌کند، افراد گمشده را در جنگل بامبو راهنمایی می‌کند و همچنان رقیب و دشمن دیرینه کاگویاست.\n\nموکو فردی گوشه‌گیر، کم‌حرف و رک است. ظاهر و نحوهٔ صحبت کردنش موکو حالتی مردانه دارد و لباس‌هایی با سبک مردانه می‌پوشد. و در بازی های جدید نم بیشتر از لحن گفتار مردانه استفاده می‌کند و نبردهای بی‌پایانش با کاگویا را نوعی سرگرمی می‌داند.",
+          "songs": [
+            {
+              "name": "Reach for the Moon ~ Immortal Smoke",
+              "url": "/chars/mokou/theme1.ogg"
+            },
+            {
+              "name": "Extend Ash ~ Hourai Victim",
+              "url": "/chars/mokou/theme2.ogg"
+            }
+          ],
+          "sliderimages": [
+			"/chars/mokou/1000637.jpg",
+        	"/chars/mokou/85060904_p1.jpg",
+        	"/chars/mokou/bae.jpg",
+        	"/chars/mokou/bow_feathers_fire_fujiwara_no_mokou_imouko_long_hair_red_eyes_shirt_touhou_white_hair_1600x900.jpg",
+        	"/chars/mokou/IMG_20250321_043504_998.jpg",
+        	"/chars/mokou/mokou.png",
+        	"/chars/mokou/WORMEN.jpg"
+
+          ],
+          "leftimgoffset": "20% 15%"
+        }
+      ]
+    }
+  ]
+}

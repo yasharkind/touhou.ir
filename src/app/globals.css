@@ -1,8 +1,261 @@
 @import "tailwindcss";
 
+@font-face {
+	font-family: bkoodak;
+	src: url(/fonts/B\ Koodak\ Bold_0.ttf);
+}
+
+@font-face {
+	font-family: dejavu;
+	src: url(/fonts/DejaVuSerif.ttf);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.scheme-home {
+  --discord-embed-shadow: #290431;
+  --background-color-start: #ee85b5;
+  --background-color-end: #441151;
+  --content-bg-color: #eeeeee;
+  --topbar-color: #ee85b5;
+  --topbar-border-color: #883677;
+  --logo-color: #441151;
+  --link-color: #6464b4;
+}
+
+.scheme-marisa {
+  --discord-embed-shadow: #422040;
+  --background-color-start: #d6dbb2;
+  --background-color-end: #e57a44;
+  --content-bg-color: #bcd8c1;
+  --topbar-color: #e3d985;
+  --topbar-border-color: #e3d985;
+  --logo-color: #422040;
+  --link-color: #6464b4;
+}
+
+.scheme-reimu {
+  --discord-embed-shadow: #090809;
+  --background-color-start: #f4796b;
+  --background-color-end: #f40000;
+  --content-bg-color: #f44e3f;
+  --topbar-color: #f44e3f;
+  --topbar-border-color: #f4998d;
+  --logo-color: #090809;
+  --link-color: #6464b4;
+}
+
+.scheme-cirno {
+  --discord-embed-shadow: #374b4a;
+  --logo-color: #526760;
+  --background-color-start: #6f7987;
+  --topbar-border-color: #8b8bae;
+  --background-color-end: #88d9e6;
+  --content-bg-color: #a7ecf2;
+  --topbar-color: #c5fffd;
+  --link-color: #6464b4;
+}
+
+.scheme-remilia {
+  --discord-embed-shadow: #000000;
+  --logo-color: #aa1155;
+  --background-color-start: #f7a5a1;
+  --topbar-border-color: #f0928a;
+  --background-color-end: #7c4d43;
+  --content-bg-color: #edd3c1;
+  --topbar-color: #b887cb;
+  --link-color: #6464b4;
+}
+
+.scheme-flandre {
+  --discord-embed-shadow: #1f1128;
+  --logo-color: #704d63;
+  --background-color-start: #c1899d;
+  --topbar-border-color: #ba4d5f;
+  --background-color-end: #793548;
+  --content-bg-color: #74516a;
+  --topbar-color: #a95881;
+  --link-color: #6464b4;
+}
+
+.scheme-sakuya {
+  --discord-embed-shadow: #45454b;
+  --logo-color: #18223a;
+  --background-color-start: #1b2749;
+  --topbar-border-color: #1e2c58;
+  --background-color-end: #4f5885;
+  --content-bg-color: #7f84b1;
+  --topbar-color: #efebf6;
+  --link-color: #6464b4;
+}
+
+.scheme-patchouli {
+  --discord-embed-shadow: #0e0e1d;
+  --logo-color: #171830;
+  --background-color-start: #2b2c53;
+  --topbar-border-color: #3e4075;
+  --background-color-end: #463e5c;
+  --content-bg-color: #4d3b42;
+  --topbar-color: #ce9fab;
+  --link-color: #6464b4;
+}
+
+.scheme-meiling {
+  --discord-embed-shadow: #190c1a;
+  --logo-color: #413d47;
+  --background-color-start: #2d3d61;
+  --topbar-border-color: #183d7b;
+  --background-color-end: #643e76;
+  --content-bg-color: #b03e71;
+  --topbar-color: #cd778f;
+  --link-color: #6464b4;
+}
+
+.scheme-characters {
+  --discord-embed-shadow: #8c2155;
+  --topbar-color: #aed4e6;
+  --background-color-start: #aed4e6;
+  --background-color-end: #741e38;
+  --content-bg-color: #af7595;
+  --topbar-border-color: #afa5be;
+  --logo-color: #5c1a1b;
+  --link-color: #6464b4;
+}
+
+.scheme-soku {
+  --discord-embed-shadow: #dddddd;
+  --logo-color: #cc4499;
+  --background-color-start: #4f1363;
+  --topbar-border-color: #3e4075;
+  --background-color-end: #463e5c;
+  --content-bg-color: #4d3b42;
+  --topbar-color: #ce9fab;
+  --link-color: #6464b4;
+}
+
+@media (prefers-color-scheme: dark) {
+  .scheme-home {
+    --discord-embed-shadow: #d5b2e0;
+    --content-bg-color: #444;
+    --content-text-color: #eee;
+    --background-color-start: #441151;
+    --background-color-end: #ee85b5;
+    --topbar-border-color: #441151;
+    --topbar-color: #441151;
+    --logo-color: #d5b2e0;
+    --link-color: #6464b4;
+  }
+
+  .scheme-marisa {
+    --discord-embed-shadow: #422040;
+    --background-color-start: #e57a44;
+    --background-color-end: #8b5f26;
+    --content-bg-color: #bcd8c1;
+    --topbar-color: #e3d985;
+    --topbar-border-color: #e3d985;
+    --logo-color: #422040;
+    --link-color: #6464b4;
+  }
+
+  .scheme-reimu {
+    --discord-embed-shadow: #af9bb6;
+    --background-color-start: #2f1213;
+    --background-color-end: #9a7a91;
+    --content-bg-color: #440d0f;
+    --topbar-color: #603a40;
+    --topbar-border-color: #84596b;
+    --logo-color: #af9bb6;
+    --link-color: #6464b4;
+  }
+  .scheme-cirno {
+    --discord-embed-shadow: #c5fffd;
+    --logo-color: #a7ecf2;
+    --background-color-start: #88d9e6;
+    --topbar-border-color: #8b8bae;
+    --background-color-end: #6f7987;
+    --content-bg-color: #526760;
+    --topbar-color: #374b4a;
+    --link-color: #6464b4;
+  }
+
+  .scheme-remilia {
+    --discord-embed-shadow: #452f4e;
+    --logo-color: #aa1155;
+    --background-color-start: #7c4d43;
+    --topbar-border-color: #f0928a;
+    --background-color-end: #f7a5a1;
+    --content-bg-color: #fdb8b7;
+    --topbar-color: #521a1a;
+    --link-color: #6464b4;
+  }
+
+  .scheme-flandre {
+    --discord-embed-shadow: #a95881;
+    --logo-color: #381c30;
+    --background-color-start: #793548;
+    --topbar-border-color: #ba4d5f;
+    --background-color-end: #c1899d;
+    --content-bg-color: #31272e;
+    --topbar-color: #573949;
+    --link-color: #6464b4;
+  }
+
+  .scheme-sakuya {
+    --discord-embed-shadow: #efebf6;
+    --logo-color: #7f84b1;
+    --background-color-start: #4f5885;
+    --topbar-border-color: #1e2c58;
+    --background-color-end: #1b2749;
+    --content-bg-color: #18223a;
+    --topbar-color: #aba8cd;
+    --link-color: #6464b4;
+  }
+
+  .scheme-patchouli {
+    --discord-embed-shadow: #ce9fab;
+    --logo-color: #4d3b42;
+    --background-color-start: #463e5c;
+    --topbar-border-color: #3e4075;
+    --background-color-end: #2b2c53;
+    --content-bg-color: #171830;
+    --topbar-color: #0e0e1d;
+    --link-color: #6464b4;
+  }
+
+  .scheme-meiling {
+    --discord-embed-shadow: #cd778f;
+    --logo-color: #b03e71;
+    --background-color-start: #643e76;
+    --topbar-border-color: #183d7b;
+    --background-color-end: #2d3d61;
+    --content-bg-color: #413d47;
+    --topbar-color: #190c1a;
+    --link-color: #6464b4;
+  }
+
+  .scheme-characters {
+    --discord-embed-shadow: #aed4e6;
+    --topbar-color: #741e38;
+    --background-color-start: #741e38;
+    --background-color-end: #aed4e6;
+    --content-bg-color: #af7595;
+    --topbar-border-color: #5c1a1b;
+    --logo-color: #aed4e6;
+    --link-color: #6464b4;
+  }
+  .scheme-soku {
+    --discord-embed-shadow: #dddddd;
+    --logo-color: #cc4499;
+    --background-color-start: #2f0733;
+    --topbar-border-color: #3e4075;
+    --background-color-end: #463e5c;
+    --content-bg-color: #4d3b42;
+    --topbar-color: #ce9fab;
+    --link-color: #6464b4;
+  }
 }
 
 @theme inline {
@@ -10,7 +263,36 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-1: var(--discord-embed-shadow);
+  --color-2: var(--topbar-color);
+  --color-3: var(--background-color-start);
+  --color-4: var(--background-color-end);
+  --color-5: var(--content-bg-color);
+  --color-6: var(--topbar-border-color);
+  --color-7: var(--logo-color);
+  --color-8: var(--link-color);
+  --color-9: var(--content-text-color);
+  --bg-1: var(--discord-embed-shadow);
+  --bg-2: var(--topbar-color);
+  --bg-3: var(--background-color-start);
+  --bg-4: var(--background-color-end);
+  --bg-5: var(--content-bg-color);
+  --bg-6: var(--topbar-border-color);
+  --bg-7: var(--logo-color);
+  --bg-8: var(--link-color);
+  --bg-9: var(--content-text-color);
+  --animate-gear: gear;
+  @keyframes gear {
+	  0% {
+		  transform: rotate(0deg);
+	  }
+	  100% {
+		  transform: rotate(360deg);
+	  }
+  }
+  
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -22,5 +304,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: dejavu,  bkoodak, Arial, Helvetica, sans-serif;
 }
+
+
