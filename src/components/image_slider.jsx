@@ -33,10 +33,10 @@ export default function ImageSlider({images, className}) {
 	return (
 		<>
 			<div className={`w-full lg:h-[60vh] h-[30vh] overflow-hidden flex ${className} relative`}>
-				<button className="sm:w-16 w-12.5 absolute h-20 bg-2  rounded-4xl mr-2 text-2 z-100 top-1/2 -translate-y-1/2 right-0" onClick={() => handleManualNavigation("prev")}>
+				<button className="sm:w-16 w-12.5 absolute h-20 bg-2  rounded-4xl ml-2 text-2 z-50 top-1/2 -translate-y-1/2 left-0" onClick={() => handleManualNavigation("prev")}>
 					<img src="/slider/left.svg" className="scale-50" />
 				</button>
-				<button className="sm:w-16 w-12.5 absolute h-20 bg-2  rounded-4xl mr-2 text-2 z-100 top-1/2 -translate-y-1/2 right-0" onClick={() => handleManualNavigation("next")}>
+				<button className="sm:w-16 w-12.5 absolute h-20 bg-2  rounded-4xl mr-2 text-2 z-50 top-1/2 -translate-y-1/2 right-0" onClick={() => handleManualNavigation("next")}>
 					<img src="/slider/right.svg" className="scale-50" />
 				</button>
 				{images.map(img => (
