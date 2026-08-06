@@ -12,7 +12,6 @@ import CategoryBlock from "@/components/category_block";
 import Footer from "@/components/footer";
 import TopBar from "@/components/topbar";
 import items from "@/items.json";
-import Image from "next/image";
 
 export default function GamePage() {
   return (
@@ -22,8 +21,8 @@ export default function GamePage() {
 
         {/*<ImageSlider images={["/slider/soku1.jpeg"]}/>*/}
         <div className=" w-full h-[50vh] justify-center relative inline-block overflow-hidden">
-          <Image className="object-cover w-full h-full overflow-hidden block transition shrink-0 grow-0" src="/slider/soku1.jpeg" />
-          <a href="games/soku">
+          <img className="object-cover w-full h-full overflow-hidden block transition shrink-0 grow-0" src="/slider/soku1.jpeg" />
+          <a href="/games/soku">
             <button className="hover:scale-125 transition text-2 h-fit w-fit bg-[#aa448840] rounded-full p-6 text-md lg:text-[24px] absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 img-center translate-full text-center koodak">
               دانلود و آموزش بازی سوکو
             </button>

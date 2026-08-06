@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { Suspense, useState } from "react";
@@ -646,18 +645,18 @@ function SokuBody() {
 export default function SokuPage() {
   return (
       <div className="scheme-soku h-dvh w-dvw bg-2 flex">
-        <span className="absolute inline w-full  pointer-events-none">
-          <Image
+        <span className="absolute inline w-full  pointer-events-none overflow-x-hidden">
+          <img
             src="/sokupage/gear1.webp"
-            className="inline animate-[gear_15s_linear_infinite] -translate-48 scale-125"
+            className="inline animate-[gear_15s_linear_infinite] -translate-48 md:scale-125 scale-50"
           />
-          <Image
+          <img
             src="/sokupage/gear2.webp"
-            className="inline [animation-direction:reverse] animate-[gear_7.5s_linear_infinite] -translate-33.5 scale-125"
+            className="[animation-direction:reverse] animate-[gear_7.5s_linear_infinite] sm:inline hidden md:-translate-33.5 sm:-translate-y-50 sm:-translate-x-83 scale-50 md:scale-125"
           />
-          <Image
+          <img
             src="/sokupage/gear3.webp"
-            className="inline animate-[gear_7.5s_linear_infinite] scale-150 translate-x-10 -translate-y-10 right-0 absolute"
+            className="inline animate-[gear_7.5s_linear_infinite] scale-150 translate-x-20 -translate-y-10 right-0 absolute"
           />
         </span>
 	  <Suspense>

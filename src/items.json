@@ -421,17 +421,20 @@
         {
           "name": "Youmu",
           "prt": "/chars/youmu/portrait.png",
-          "url": "/characters/youmu"
+          "url": "/characters/youmu",
+		  "sliderimages": []
         },
         {
           "name": "Yuyuko",
           "prt": "/chars/yuyuko/portrait.png",
-          "url": "/characters/yuyuko"
+          "url": "/characters/yuyuko",
+		  "sliderimages": []
         },
         {
           "name": "Yukari",
           "prt": "/chars/yukari/portrait.png",
-          "url": "/characters/yukari"
+          "url": "/characters/yukari",
+		  "sliderimages": []
         }
       ]
     },
@@ -443,7 +446,8 @@
         {
           "name": "Tewi",
           "prt": "/chars/tewi/portrait.png",
-          "url": "/characters/tewi"
+          "url": "/characters/tewi",
+		  "sliderimages": []
         },
         {
           "name": "Reisen",

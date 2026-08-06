@@ -78,7 +78,7 @@ export default function TopBarButton(props) {
 
   return (
     <Link
-	  prefetch={true}
+	  prefetch={false}
       href={props.url}
       className="h-full bg-2 text-[10px] lg:text-lg w-full items-center justify-center flex flex-row-reverse p-2 rounded-lg"
     >

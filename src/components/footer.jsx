@@ -1,4 +1,3 @@
-import Image from "next/image"
 import AnimateEnter from "./animate_enter"
 import locale from "@/locale.json"
 
@@ -29,8 +28,8 @@ export default function Footer() {
                                         touhou.ir
                                     </div>
                                     <div className="flex flex-col">
-                                        <Image className="rounded-[64px]" src="https://cdn.discordapp.com/icons/721026661990137947/a_01df922d2bf027cbbb3bc31c889685ef.gif" />
-                                        <Image src="/footer/remilia.gif" />
+                                        <img className="rounded-[64px]" src="https://cdn.discordapp.com/icons/721026661990137947/a_01df922d2bf027cbbb3bc31c889685ef.gif" />
+                                        <img src="/footer/remilia.gif" />
                                     </div>
                                 </div>
                                 <iframe className="hidden lg:block rounded-lg" src="https://discord.com/widget?id=721026661990137947&theme=dark" width="250" height="350" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />

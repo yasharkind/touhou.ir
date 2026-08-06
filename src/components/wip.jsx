@@ -8,7 +8,7 @@ export default function Wip() {
 	return visible && <>
 			<div className="flex fixed w-full h-full text-[70px] items-center z-50 bg-[#1F1F1F99] text-[#FF6363] text-center" onClick={() => { setVisible(() => false) }} dir='rtl'>
 				<div style={{ alignSelf: "center" }}>
-					سایت هنوز در حال ساخته شدن است. برای ثبت پیشنهادات وارد سرور دیسکور شوید
+					سایت هنوز در حال ساخته شدن است. برای ثبت پیشنهادات وارد سرور دیسکورد شوید
 				</div>
 			</div>
 		</>

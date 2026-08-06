@@ -14,6 +14,13 @@ import Image from "next/image";
         <meta property="og:url" content={char.url} />
       </Helmet>*/
 
+export async function generateStaticParams() {
+	const filteredList = items.charitems.slice(1).flatMap((i) => i.items);
+    return filteredList?.map(character => ({
+        character: character.name.toLowerCase(),
+    }));
+}
+
 export async function generateMetadata({ params }) {
   const { character } = await params;
   const metadata = {
@@ -52,7 +59,7 @@ export default async function CharacterPage({ params }) {
         <div className="bg-linear-180 from-3 to-4 min-h-fit flex flex-col justify-center align-center pt-16">
           <div className="flex flex-row">
             {char.topimages?.map((image) => {
-              return <Image className="m-auto" key={image} src={image} />;
+              return <img className="m-auto" key={image} src={image} />;
             })}
           </div>
           <div
@@ -86,11 +93,11 @@ export default async function CharacterPage({ params }) {
               {char.songs?.map((song) => {
                 return (
                   <div key={song.name}>
-                    <div key={song.name} className="dejavu m-4 text-2xl">
+                    <div className="dejavu m-4 text-2xl">
                       {song.name}
                     </div>
-                    <audio key={`${song.name}1`} controls className="w-full">
-                      <source key={song.url} src={song.url} type="audio/ogg" />
+                    <audio controls className="w-full">
+                      <source src={song.url} type="audio/ogg" />
                     </audio>
                   </div>
                 );

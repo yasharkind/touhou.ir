@@ -103,32 +103,32 @@ export default function Home() {
             <CategoryBlock
               title="بازی های توهو"
               img="/homepage/games.jpg"
-              url="games"
+              url="/games"
             />
             <CategoryBlock
               title="موزیک های توهو"
               img="/homepage/music.jpg"
-              url="music"
+              url="/music"
             />
             <CategoryBlock
               title="فن گیم های توهو"
               img="/homepage/fangames.png"
-              url="fangames"
+              url="/fangames"
             />
             <CategoryBlock
               title="مانگا های توهو"
               img="/homepage/manga.jpg"
-              url="manga"
+              url="/manga"
             />
             <CategoryBlock
               title="انیمه های توهو"
               img="/homepage/anime.jpg"
-              url="anime"
+              url="/anime"
             />
             <CategoryBlock
               title="کاراکتر های توهو"
               img="/homepage/characters.jpg"
-              url="characters"
+              url="/characters"
             />
             <CategoryBlock
               title="سرور دیسکورد"
