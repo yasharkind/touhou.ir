@@ -147,6 +147,39 @@
   --link-color: #ad446c;
 }
 
+.scheme-eirin {
+  --discord-embed-shadow: #fde7e0;
+  --logo-color: #f1bcb0;
+  --background-color-start: #a88797;
+  --topbar-border-color: #fef8f3;
+  --background-color-end: #fce2d4;
+  --content-bg-color: #e1b4b6;
+  --topbar-color: #be96a0;
+  --link-color: #956a77;
+}
+
+.scheme-kaguya {
+  --discord-embed-shadow: #e2bbcf;
+  --logo-color: #7b6875;
+  --background-color-start: #f8d9d9;
+  --topbar-border-color: #614d70;
+  --background-color-end: #4a3257;
+  --content-bg-color: #4c445b;
+  --topbar-color: #f3ece7;
+  --link-color: #151534;
+}
+
+.scheme-mokou {
+  --discord-embed-shadow: #b25258;
+  --logo-color: #7f595e;
+  --background-color-start: #e78161;
+  --topbar-border-color: #ffffff;
+  --background-color-end: #664a48;
+  --content-bg-color: #fefeec;
+  --topbar-color: #b38158;
+  --link-color: #fefed5;
+}
+
 .scheme-soku {
   --discord-embed-shadow: #dddddd;
   --logo-color: #cc4499;
@@ -288,6 +321,39 @@
     --content-bg-color: #cc6486;
     --topbar-color: #060926;
     --link-color: #0b0a2a;
+  }
+
+  .scheme-eirin {
+    --discord-embed-shadow: #eaecef;
+    --logo-color: #5f67b6;
+    --background-color-start: #181b44;
+    --topbar-border-color: #2f1b2f;
+    --background-color-end: #292e83;
+    --content-bg-color: #121531;
+    --topbar-color: #8977a3;
+    --link-color: #8e9be8;
+  }
+
+  .scheme-kaguya {
+    --discord-embed-shadow: #d26878;
+    --logo-color: #a5576b;
+    --background-color-start: #26233b;
+    --topbar-border-color: #344f86;
+    --background-color-end: #75a7c1;
+    --content-bg-color: #222e4e;
+    --topbar-color: #78c6f1;
+    --link-color: #ead9cf;
+  }
+
+  .scheme-mokou {
+    --discord-embed-shadow: #a1867a;
+    --logo-color: #1a1716;
+    --background-color-start: #423634;
+    --topbar-border-color: #3a0e0b;
+    --background-color-end: #f38c0c;
+    --content-bg-color: #570e0c;
+    --topbar-color: #202b20;
+    --link-color: #58443e;
   }
 
   .scheme-soku {
