@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @font-face {
-	font-family: bkoodak;
-	src: url(/fonts/B\ Koodak\ Bold_0.ttf);
+  font-family: bkoodak;
+  src: url(/fonts/B\ Koodak\ Bold_0.ttf);
 }
 
 @font-face {
-	font-family: dejavu;
-	src: url(/fonts/DejaVuSerif.ttf);
+  font-family: dejavu;
+  src: url(/fonts/DejaVuSerif.ttf);
 }
 
 :root {
@@ -123,6 +123,28 @@
   --topbar-border-color: #afa5be;
   --logo-color: #5c1a1b;
   --link-color: #6464b4;
+}
+
+.scheme-tewi {
+  --discord-embed-shadow: #702e37;
+  --logo-color: #9a4c5a;
+  --background-color-start: #3a3a3a;
+  --topbar-border-color: #87dbf7;
+  --background-color-end: #f5f3fc;
+  --content-bg-color: #82768b;
+  --topbar-color: #cb777a;
+  --link-color: #3b92c2;
+}
+
+.scheme-reisen {
+  --discord-embed-shadow: #fafafa;
+  --logo-color: #e3c2da;
+  --background-color-start: #0f1112;
+  --topbar-border-color: #d6a9c9;
+  --background-color-end: #4b5250;
+  --content-bg-color: #5d282a;
+  --topbar-color: #bb81ad;
+  --link-color: #ad446c;
 }
 
 .scheme-soku {
@@ -246,6 +268,28 @@
     --logo-color: #aed4e6;
     --link-color: #6464b4;
   }
+  .scheme-tewi {
+    --discord-embed-shadow: #c8c0cd;
+    --logo-color: #edb39c;
+    --background-color-start: #e09287;
+    --topbar-border-color: #763c2d;
+    --background-color-end: #4c4132;
+    --content-bg-color: #323730;
+    --topbar-color: #8d6c4c;
+    --link-color: #231c1b;
+  }
+
+  .scheme-reisen {
+    --discord-embed-shadow: #2a1243;
+    --logo-color: #3a1f55;
+    --background-color-start: #4e8d69;
+    --topbar-border-color: #9e3467;
+    --background-color-end: #dbb1cb;
+    --content-bg-color: #cc6486;
+    --topbar-color: #060926;
+    --link-color: #0b0a2a;
+  }
+
   .scheme-soku {
     --discord-embed-shadow: #dddddd;
     --logo-color: #cc4499;
@@ -283,16 +327,14 @@
   --bg-9: var(--content-text-color);
   --animate-gear: gear;
   @keyframes gear {
-	  0% {
-		  transform: rotate(0deg);
-	  }
-	  100% {
-		  transform: rotate(360deg);
-	  }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -304,7 +346,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: dejavu,  bkoodak, Arial, Helvetica, sans-serif;
+  font-family: dejavu, bkoodak, Arial, Helvetica, sans-serif;
 }
-
-
