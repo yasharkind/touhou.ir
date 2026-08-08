@@ -42,7 +42,8 @@ export default function TopBar({}) {
     height: 0,
   });
   useLayoutEffect(() => {
-	  const path = pathname.replace(/\/$/g, "");
+	  const path = pathname.match(/^(\/[^/]+)\/?/)[1];
+	  console.log(path)
     const button = buttonRefs.current[path];
 
     if (!button) return;
