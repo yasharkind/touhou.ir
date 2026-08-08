@@ -33,8 +33,8 @@ export async function generateMetadata({ params }) {
       title: "touhou.ir",
       description:
         "معرفی شخصیت‌های اصلی و محبوب توهو. داستان، قدرت‌ها و رابطه‌ها به فارسی.",
-      url: "https://touhou.ir/characters",
-      images: [{ url: "https://touhou.ir/homepage/characters.jpg" }],
+      url: `https://touhou.ir/characters/${character.toLowerCase()}`,
+      images: [{ url: `https://touhou.ir/chars/${character.toLowerCase}/portrait.png` }],
       siteName: "touhou.ir",
     },
   };

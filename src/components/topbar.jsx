@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 import { usePathname } from "next/navigation";
 
 const links = [
-	{
+  {
     icon: "home.png",
     alt: "Home",
     url: "/home",
@@ -42,8 +42,7 @@ export default function TopBar({}) {
     height: 0,
   });
   useLayoutEffect(() => {
-	  const path = pathname.match(/^(\/[^/]+)\/?/)[1];
-	  console.log(path)
+    const path = pathname.match(/^(\/[^/]+)\/?/)[1];
     const button = buttonRefs.current[path];
 
     if (!button) return;
@@ -57,20 +56,24 @@ export default function TopBar({}) {
   }, [pathname]);
   return (
     <>
-      <div className={`transition h-23.5 lg:h-30 w-full t-0 bg-2 flex shadow-6 shadow-[0px_8px_24px_8px] relative z-10 flex-row-reverse content-around justify-between scheme-${pathname.match(/^\/([^\/]+)\//)[1]}`}>
-        <nav className="self-center w-fit flex ml-4 mr-4 gap-4">
-	  {links.map((v,i) => <TopBarButton
-            icon={v.icon}
-            alt={v.alt}
-            url={v.url}
-            name={v.name}
-		    ref={(el) => buttonRefs.current[v.url] = el}
-		    key={i}
-          />)}
+      <div
+        className={`transition h-23.5 lg:h-30 w-full t-0 bg-2 flex shadow-6 shadow-[0px_8px_24px_8px] relative z-10 flex-row-reverse content-around justify-between scheme-${pathname.match(/^\/([^\/]+)\//)[1]}`}
+      >
+        <nav className="self-center w-fit flex flex-row-reverse ml-4 mr-4 gap-4">
+          {links.map((v, i) => (
+            <TopBarButton
+              icon={v.icon}
+              alt={v.alt}
+              url={v.url}
+              name={v.name}
+              ref={(el) => (buttonRefs.current[v.url] = el)}
+              key={i}
+            />
+          ))}
         </nav>
 
         <motion.div
-          className="absolute border-[3px] border-dotted border-5 w-fit h-fit self-center ml-4 drop-shadow-[5px_5px_5px_#222] transition leading-normal text-7 content-center  p-2 rounded-lg"
+          className="absolute border-[3px] border-dotted border-5 w-fit h-fit self-center bg-1 opacity-35 -z-10 ml-4 drop-shadow-[5px_5px_5px_#222] transition leading-normal text-7 content-center  p-2 rounded-lg"
           animate={{
             left: selector.left,
             top: selector.top,
@@ -80,8 +83,8 @@ export default function TopBar({}) {
           transition={{ duration: 0.5 }}
         ></motion.div>
         <div className="w-fit h-fit self-center ml-4 drop-shadow-[5px_5px_5px_#222] transition hover:scale-125 hover:translate-x-5 leading-normal text-7 content-center  p-2">
-          <Link id="test" prefetch={false} href="/home">
-            <div className="text:[10px] sm:text-[4vh] md:text-[5vh]">
+          <Link prefetch={false} href="/home">
+            <div className="hidden sm:block sm:text-[4vh] md:text-[5vh]">
               touhou.ir
             </div>
           </Link>

@@ -48,14 +48,14 @@ export default forwardRef( function TopBarButton({url, name}, ref) {
   /* const [visible, isVisible] = useState(false);
  if (props.items)
     return (
-      <div className="h-full hover:cursor-default bg-2 text-[10px] lg:text-lg mr-4 w-full items-center justify-center flex flex-row-reverse">
+      <div className="h-full hover:cursor-default text-[10px] lg:text-lg mr-4 w-full items-center justify-center flex flex-row-reverse">
         <div
           onClick={() => isVisible((last) => !last)}
           onMouseEnter={() => isVisible(true)}
           onMouseLeave={() => isVisible(false)}
         >
           {props.name}
-          <div className="absolute bg-5 h-fit w-fit">
+          <div className="absolute h-fit w-fit">
             {visible &&
               props.items.map((item, i) => {
                 if (item.items) {
@@ -80,7 +80,7 @@ export default forwardRef( function TopBarButton({url, name}, ref) {
     <Link
 	  prefetch={false}
       href={url}
-      className="h-full bg-2 text-[10px] lg:text-lg w-full items-center justify-center flex flex-row-reverse p-2 rounded-lg"
+      className="h-full text-[10px] lg:text-lg w-full items-center justify-center flex flex-row-reverse p-2 rounded-lg"
 	  ref={ref}
     >
       <button className="hover:cursor-pointer text-4 align-middle text-shadow-black text-shadow-lg  hover:scale-140 transition">
