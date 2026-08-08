@@ -53,11 +53,6 @@ export default async function CharacterPage({ params }) {
     <>
       <div className={`scheme-${char.name.toLowerCase()} w-full`}>
         <div className="bg-linear-180 from-3 to-4 min-h-fit flex flex-col justify-center align-center pt-16">
-          <div className="flex flex-row">
-            {char.topimages?.map((image) => {
-              return <img className="m-auto" key={image} src={image} />;
-            })}
-          </div>
           <div
             className="flex-col items-end lg:items-center justify-center flex bg-5 w-9/10 self-center p-4 rounded-2xl shadow-2xl mb-8 text-1"
             dir="rtl"
