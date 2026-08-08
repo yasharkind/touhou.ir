@@ -9,15 +9,12 @@
 	</Helmet>*/
 
 import CategoryBlock from "@/components/category_block";
-import Footer from "@/components/footer";
-import TopBar from "@/components/topbar";
 import items from "@/items.json";
 
 export default function GamePage() {
   return (
     <>
-      <div className="scheme-sakuya">
-        <TopBar />
+      <div className="scheme-games">
 
         {/*<ImageSlider images={["/slider/soku1.jpeg"]}/>*/}
         <div className=" w-full h-[50vh] justify-center relative inline-block overflow-hidden">
@@ -75,7 +72,6 @@ export default function GamePage() {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

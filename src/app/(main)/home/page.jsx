@@ -1,7 +1,5 @@
 import CategoryBlock from "@/components/category_block";
-import Footer from "@/components/footer";
 import ImageSlider from "@/components/image_slider";
-import TopBar from "@/components/topbar";
 import Wip from "@/components/wip";
 import locale from "@/locale.json";
 
@@ -59,7 +57,6 @@ export default function Home() {
     <>
       <div className="scheme-home">
         <Wip />
-	  <TopBar />
 	  {/*<div className="absolute z-2 right-0">
           <AnimateEnter>
             <div
@@ -78,7 +75,7 @@ export default function Home() {
             </div>
           </AnimateEnter>
         </div>*/}
-        <ImageSlider images={images.sort(() => Math.random() - .5).slice(0,6)} />
+        <ImageSlider images={images} />
         <div className="bg-linear-to-t from-3 to-transparent h-50 w-full absolute -mt-50 z-2" />
         <div className="bg-linear-to-b from-3 to-4 h-fit w-full flex flex-col justify-center items-center pt-16">
           <div className="shadow-4 shadow-[0px_0px_100px] bg-6 items-center justify-items-center flex md:flex-row-reverse md:items-end flex-col w-9/10 rounded-2xl  mb-8">
@@ -137,7 +134,6 @@ export default function Home() {
               blank={true}
             />
           </div>
-          <Footer />
         </div>
       </div>
     </>

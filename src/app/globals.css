@@ -91,6 +91,16 @@
   --topbar-color: #efebf6;
   --link-color: #6464b4;
 }
+.scheme-games {
+  --discord-embed-shadow: #45454b;
+  --logo-color: #18223a;
+  --background-color-start: #1b2749;
+  --topbar-border-color: #1e2c58;
+  --background-color-end: #4f5885;
+  --content-bg-color: #7f84b1;
+  --topbar-color: #efebf6;
+  --link-color: #6464b4;
+}
 
 .scheme-patchouli {
   --discord-embed-shadow: #0e0e1d;
@@ -259,6 +269,17 @@
   }
 
   .scheme-sakuya {
+    --discord-embed-shadow: #efebf6;
+    --logo-color: #7f84b1;
+    --background-color-start: #4f5885;
+    --topbar-border-color: #1e2c58;
+    --background-color-end: #1b2749;
+    --content-bg-color: #18223a;
+    --topbar-color: #aba8cd;
+    --link-color: #6464b4;
+  }
+
+  .scheme-games {
     --discord-embed-shadow: #efebf6;
     --logo-color: #7f84b1;
     --background-color-start: #4f5885;

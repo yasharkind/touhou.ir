@@ -1,11 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 export default function ImageSlider({images, className}) {
 	const [image, setImage] = useState(0);
+	const [_images, setImages] = useState();
 	var manual = useRef(false)
 	const manualTimeout = useRef(null);
+	useLayoutEffect(() => {
+		setImages(images.sort(_=>Math.random()).slice(0,6));
+	}, [])
 	useEffect(() => {
 		const interval = setInterval(() => {
 			if(!manual.current) setImage(prev => (prev + 1) % images.length)
@@ -26,8 +30,8 @@ export default function ImageSlider({images, className}) {
 
 		setImage(prev =>
 			direction === 'next'
-				? (prev + 1) % images.length
-				: (prev + images.length - 1) % images.length
+				? (prev + 1) % _images.length
+				: (prev + _images.length - 1) % _images.length
 		);
 	};
 	return (
@@ -39,7 +43,7 @@ export default function ImageSlider({images, className}) {
 				<button className="sm:w-16 w-12.5 absolute h-20 bg-2  rounded-4xl mr-2 text-2 z-50 top-1/2 -translate-y-1/2 right-0" onClick={() => handleManualNavigation("next")}>
 					<img src="/slider/right.svg" className="scale-50" />
 				</button>
-				{images.map(img => (
+				{_images?.map(img => (
 					<img src={`${img}`} key={img} className='object-cover shrink-0 relative h-full w-full transition ease-in-out' style={{ translate: `${image * -100}%` }} />
 				))}
 			</div>

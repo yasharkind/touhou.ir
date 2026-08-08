@@ -1,3 +1,5 @@
+"use client";
+import { usePathname } from "next/navigation";
 import AnimateEnter from "./animate_enter"
 import locale from "@/locale.json"
 
@@ -13,8 +15,9 @@ const ResourceContent = (props) => {
 }
 
 export default function Footer() {
+	const path = usePathname().match(/^\/([^\/]+)\//)[1];
     return (
-        <div className="bg-6 w-full">
+        <div className={`bg-6 w-full scheme-${path}`}>
             <div className="flex flex-row-reverse bg-transparent h-max w-full text-[64px] text-right items-stretch justify-evenly justify-items-center align-center border-t-black border-t-[4px] border-solid relative z-10 grow shrink basis-[21%] flex-wrap pt-8 pb-8">
                 <AnimateEnter>
                     <a target="_blank" href={locale.serverlink}>

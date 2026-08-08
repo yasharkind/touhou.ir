@@ -1,10 +1,7 @@
 import CategoryBlock from "@/components/category_block";
-import Footer from "@/components/footer";
 import ImageSlider from "@/components/image_slider";
-import TopBar from "@/components/topbar";
 import YoutubeEmbed from "@/components/youtube_embed";
 import items from "@/items.json";
-import Image from "next/image";
 
 /*<Helmet>
         <title>معرفی {char.fullname} توهو | بیوگرافی به فارسی</title>
@@ -55,7 +52,6 @@ export default async function CharacterPage({ params }) {
   return (
     <>
       <div className={`scheme-${char.name.toLowerCase()} w-full`}>
-        <TopBar />
         <div className="bg-linear-180 from-3 to-4 min-h-fit flex flex-col justify-center align-center pt-16">
           <div className="flex flex-row">
             {char.topimages?.map((image) => {
@@ -148,7 +144,6 @@ export default async function CharacterPage({ params }) {
               </button>
             </a>
           </div>
-          <Footer />
         </div>
       </div>
     </>

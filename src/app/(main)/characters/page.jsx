@@ -1,6 +1,4 @@
 import CategoryBlock from "@/components/category_block";
-import Footer from "@/components/footer";
-import TopBar from "@/components/topbar";
 import items from "@/items.json";
 
 /*<Helmet>
@@ -36,7 +34,6 @@ export default function CharactersPage() {
   return (
     <>
       <div className="scheme-characters">
-        <TopBar />
         <div className="bg-linear-180 from-3 gap-8 to-4 min-h-fit w-full flex flex-col justify-items-center items-center">
           <p className="text-[48px] mt-8">شخصیت‌های توهو</p>
           <div className="gap-8 flex flex-col">
@@ -79,7 +76,6 @@ export default function CharactersPage() {
           >
             منبع همه ی آرت های این صفحه
           </a>
-          <Footer />
         </div>
       </div>
     </>

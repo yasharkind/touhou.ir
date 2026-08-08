@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 
@@ -44,7 +44,7 @@ function DropDownItem({ item }) {
   );
 }
 
-export default function TopBarButton(props) {
+export default forwardRef( function TopBarButton({url, name}, ref) {
   /* const [visible, isVisible] = useState(false);
  if (props.items)
     return (
@@ -79,12 +79,13 @@ export default function TopBarButton(props) {
   return (
     <Link
 	  prefetch={false}
-      href={props.url}
+      href={url}
       className="h-full bg-2 text-[10px] lg:text-lg w-full items-center justify-center flex flex-row-reverse p-2 rounded-lg"
+	  ref={ref}
     >
       <button className="hover:cursor-pointer text-4 align-middle text-shadow-black text-shadow-lg  hover:scale-140 transition">
-        {props.name}
+        {name}
       </button>
     </Link>
   );
-}
+})
