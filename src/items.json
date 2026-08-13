@@ -455,7 +455,7 @@
             "/chars/youmu/potential-bg.jpg",
             "/chars/youmu/Youmu 554.png"
           ],
-		  "leftimgoffset": "60% 0%"
+          "leftimgoffset": "60% 0%"
         },
         {
           "name": "Yuyuko",
@@ -467,7 +467,20 @@
           "name": "Yukari",
           "prt": "/chars/yukari/portrait.png",
           "url": "/characters/yukari",
-          "sliderimages": []
+          "sliderimages": [
+            "/chars/yukari/cropped_30515802_p017_29_08.jpg",
+            "/chars/yukari/52f5c735a20711064c99e4e55777d1cf8605f89417_30_04.jpg",
+            "/chars/yukari/bg (2).jpg",
+            "/chars/yukari/BG (3).jpg",
+            "/chars/yukari/Demetori - Necrofantasia ~ Remix.jpg",
+            "/chars/yukari/gbhnjkmlbuhnjkm.jpg",
+            "/chars/yukari/IMG_20250328_184907_976.jpg",
+            "/chars/yukari/cropped_lasse.jpg",
+            "/chars/yukari/wp8417958-yakumo-wallpapers.jpg",
+            "/chars/yukari/ykr.jpg",
+            "/chars/yukari/yukari.jpg"
+          ],
+          "leftimgoffset": "50% top"
         }
       ]
     },
