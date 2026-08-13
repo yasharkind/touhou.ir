@@ -431,7 +431,31 @@
           "name": "Youmu",
           "prt": "/chars/youmu/portrait.png",
           "url": "/characters/youmu",
-          "sliderimages": []
+          "sliderimages": [
+            "/chars/youmu/cropped_1278975.png",
+            "/chars/youmu/cropped_1305792.jpg",
+            "/chars/youmu/1309199.jpg",
+            "/chars/youmu/16.jpg",
+            "/chars/youmu/2ho.jpg",
+            "/chars/youmu/32874294.jpg",
+            "/chars/youmu/686785.png",
+            "/chars/youmu/746537.jpg",
+            "/chars/youmu/809487.png",
+            "/chars/youmu/811097.png",
+            "/chars/youmu/871054.png",
+            "/chars/youmu/907035.png",
+            "/chars/youmu/cropped_908280.png",
+            "/chars/youmu/cropped_911891.jpg",
+            "/chars/youmu/cropped_916934.jpg",
+            "/chars/youmu/cropped_935881.png",
+            "/chars/youmu/BG (2).jpg",
+            "/chars/youmu/cropped_bg (3).jpg",
+            "/chars/youmu/BG Douga.jpg",
+            "/chars/youmu/bg.jpg",
+            "/chars/youmu/potential-bg.jpg",
+            "/chars/youmu/Youmu 554.png"
+          ],
+		  "leftimgoffset": "60% 0%"
         },
         {
           "name": "Yuyuko",
