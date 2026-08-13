@@ -380,9 +380,15 @@
             }
           ],
           "sliderimages": [
-            "/chars/chen/slider1.jpg",
-            "/chars/chen/slider2.jpg",
-            "/chars/chen/slider3.jpg"
+            "/chars/chen/1071679.jpg",
+            "/chars/chen/1172985.jpg",
+            "/chars/chen/1183666.png",
+            "/chars/chen/out.png",
+            "/chars/chen/557901.jpg",
+            "/chars/chen/770345.jpg",
+            "/chars/chen/876222.png",
+            "/chars/chen/background.jpg",
+            "/chars/chen/Chen_waifu2x_art_noise1_scale_tta_1 (1).png"
           ],
           "wikiurl": "https://en.touhouwiki.net/wiki/Chen",
           "leftimgoffset": "30% 0%"
@@ -398,25 +404,25 @@
             { "name": "Doll Judgement", "url": "/chars/alice/theme.ogg" }
           ],
           "sliderimages": [
-		"/chars/alice/1108011.jpg",
-        "/chars/alice/111837.jpg",
-        "/chars/alice/1304246.jpg",
-        "/chars/alice/out3.jpg",
-        "/chars/alice/656163.jpg",
-        "/chars/alice/715606.jpg",
-        "/chars/alice/out4.jpg",
-        "/chars/alice/762900.jpg",
-        "/chars/alice/out6.jpg",
-        "/chars/alice/out7.jpg",
-        "/chars/alice/out5.jpg",
-        "/chars/alice/out8.jpg",
-        "/chars/alice/903252.png",
-        "/chars/alice/out.png",
-        "/chars/alice/out2.png",
-        "/chars/alice/Alice 572.jpg",
-        "/chars/alice/Alice 785.jpg",
-        "/chars/alice/alice-margatroid-wallpaper-full-hd-1920x1080-221113.png",
-        "/chars/alice/orz54.jpg"
+            "/chars/alice/1108011.jpg",
+            "/chars/alice/111837.jpg",
+            "/chars/alice/1304246.jpg",
+            "/chars/alice/out3.jpg",
+            "/chars/alice/656163.jpg",
+            "/chars/alice/715606.jpg",
+            "/chars/alice/out4.jpg",
+            "/chars/alice/762900.jpg",
+            "/chars/alice/out6.jpg",
+            "/chars/alice/out7.jpg",
+            "/chars/alice/out5.jpg",
+            "/chars/alice/out8.jpg",
+            "/chars/alice/903252.png",
+            "/chars/alice/out.png",
+            "/chars/alice/out2.png",
+            "/chars/alice/Alice 572.jpg",
+            "/chars/alice/Alice 785.jpg",
+            "/chars/alice/alice-margatroid-wallpaper-full-hd-1920x1080-221113.png",
+            "/chars/alice/orz54.jpg"
           ],
           "wikiurl": "https://en.touhouwiki.net/wiki/Alice_Margatroid",
           "leftimgoffset": "50% 10%"
@@ -425,19 +431,19 @@
           "name": "Youmu",
           "prt": "/chars/youmu/portrait.png",
           "url": "/characters/youmu",
-		  "sliderimages": []
+          "sliderimages": []
         },
         {
           "name": "Yuyuko",
           "prt": "/chars/yuyuko/portrait.png",
           "url": "/characters/yuyuko",
-		  "sliderimages": []
+          "sliderimages": []
         },
         {
           "name": "Yukari",
           "prt": "/chars/yukari/portrait.png",
           "url": "/characters/yukari",
-		  "sliderimages": []
+          "sliderimages": []
         }
       ]
     },
@@ -450,7 +456,7 @@
           "name": "Tewi",
           "prt": "/chars/tewi/portrait.png",
           "url": "/characters/tewi",
-		  "sliderimages": []
+          "sliderimages": []
         },
         {
           "name": "Reisen",
@@ -467,12 +473,12 @@
           ],
           "sliderimages": [
             "/chars/reisen/65.jpg",
-        	"/chars/reisen/IMG_20250310_200828_345.jpg",
-        	"/chars/reisen/IMG_20250311_190516_777.jpg",
-        	"/chars/reisen/Konachan.com - 32758 sample.jpg",
-        	"/chars/reisen/Screenshot_20230712-000529_Touhou LostWord.jpg",
-        	"/chars/reisen/stfu_lcfc.jpg",
-        	"/chars/reisen/Untitled-2.png"
+            "/chars/reisen/IMG_20250310_200828_345.jpg",
+            "/chars/reisen/IMG_20250311_190516_777.jpg",
+            "/chars/reisen/Konachan.com - 32758 sample.jpg",
+            "/chars/reisen/Screenshot_20230712-000529_Touhou LostWord.jpg",
+            "/chars/reisen/stfu_lcfc.jpg",
+            "/chars/reisen/Untitled-2.png"
           ],
           "leftimgoffset": "center 10%"
         },
@@ -491,12 +497,11 @@
           ],
           "sliderimages": [
             "/chars/eirin/1160617.png",
-        	"/chars/eirin/751893.jpg",
-        	"/chars/eirin/879912.jpg",
-        	"/chars/eirin/922480.png",
-        	"/chars/eirin/FkvdgTtaYAEi-1Q.jpg",
-        	"/chars/eirin/roirw.png"
-
+            "/chars/eirin/751893.jpg",
+            "/chars/eirin/879912.jpg",
+            "/chars/eirin/922480.png",
+            "/chars/eirin/FkvdgTtaYAEi-1Q.jpg",
+            "/chars/eirin/roirw.png"
           ],
           "leftimgoffset": "25% 20%"
         },
@@ -516,10 +521,10 @@
           "leftimgoffset": "20% 10%",
 
           "sliderimages": [
-        "/chars/kaguya/1289831.png",
-        "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_orita_enpitsu__230778c740b852c22dbbd57f18189fe0.jpg",
-        "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_ringo_no_usagi__sample-33f1679ecc2ae53e9010ce9054970e66.jpg",
-        "/chars/kaguya/thumb-1920-970247.jpg"
+            "/chars/kaguya/1289831.png",
+            "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_orita_enpitsu__230778c740b852c22dbbd57f18189fe0.jpg",
+            "/chars/kaguya/__houraisan_kaguya_touhou_drawn_by_ringo_no_usagi__sample-33f1679ecc2ae53e9010ce9054970e66.jpg",
+            "/chars/kaguya/thumb-1920-970247.jpg"
           ]
         },
         {
@@ -540,14 +545,13 @@
             }
           ],
           "sliderimages": [
-			"/chars/mokou/1000637.jpg",
-        	"/chars/mokou/85060904_p1.jpg",
-        	"/chars/mokou/bae.jpg",
-        	"/chars/mokou/bow_feathers_fire_fujiwara_no_mokou_imouko_long_hair_red_eyes_shirt_touhou_white_hair_1600x900.jpg",
-        	"/chars/mokou/IMG_20250321_043504_998.jpg",
-        	"/chars/mokou/mokou.png",
-        	"/chars/mokou/WORMEN.jpg"
-
+            "/chars/mokou/1000637.jpg",
+            "/chars/mokou/85060904_p1.jpg",
+            "/chars/mokou/bae.jpg",
+            "/chars/mokou/bow_feathers_fire_fujiwara_no_mokou_imouko_long_hair_red_eyes_shirt_touhou_white_hair_1600x900.jpg",
+            "/chars/mokou/IMG_20250321_043504_998.jpg",
+            "/chars/mokou/mokou.png",
+            "/chars/mokou/WORMEN.jpg"
           ],
           "leftimgoffset": "20% 15%"
         }

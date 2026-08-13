@@ -44,7 +44,7 @@ export default function ImageSlider({images, className}) {
 					<img src="/slider/right.svg" className="scale-50" />
 				</button>
 				{_images?.map(img => (
-					<img src={`${img}`} key={img} className='object-cover shrink-0 relative h-full w-full transition ease-in-out' style={{ translate: `${image * -100}%` }} />
+					<img onClick={() => {window.open(img,"_blank")}} src={`${img}`} key={img} className='object-cover shrink-0 relative h-full w-full transition ease-in-out' style={{ translate: `${image * -100}%` }} />
 				))}
 			</div>
 		</>
