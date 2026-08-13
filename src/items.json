@@ -461,7 +461,21 @@
           "name": "Yuyuko",
           "prt": "/chars/yuyuko/portrait.png",
           "url": "/characters/yuyuko",
-          "sliderimages": []
+          "sliderimages": [
+            "/chars/yuyuko/cropped_1.jpg",
+            "/chars/yuyuko/4e0264e81523ae87bcbcc618b004001f.jpg",
+            "/chars/yuyuko/bg (6).jpg",
+            "/chars/yuyuko/cropped_bg.jpg",
+            "/chars/yuyuko/bg442.jpg",
+            "/chars/yuyuko/bgyuyuko.jpg",
+            "/chars/yuyuko/Hates Torpid.jpg",
+            "/chars/yuyuko/kiai.jpg",
+            "/chars/yuyuko/bg3.jpg",
+            "/chars/yuyuko/cropped_pause-overlay.png",
+            "/chars/yuyuko/yuyu_ugume3732.jpg",
+            "/chars/yuyuko/cropped_Yuyuko.jpg"
+          ],
+		  "leftimgoffset": "10% center"
         },
         {
           "name": "Yukari",
