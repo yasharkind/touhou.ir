@@ -8,7 +8,7 @@ export default function ImageSlider({images, className}) {
 	var manual = useRef(false)
 	const manualTimeout = useRef(null);
 	useLayoutEffect(() => {
-		setImages(images.sort(_=>Math.random()).slice(0,6));
+		setImages(images);
 	}, [])
 	useEffect(() => {
 		const interval = setInterval(() => {

@@ -398,12 +398,28 @@
             { "name": "Doll Judgement", "url": "/chars/alice/theme.ogg" }
           ],
           "sliderimages": [
-            "/chars/alice/slider1.jpg",
-            "/chars/alice/slider2.jpg",
-            "/chars/alice/slider3.jpg"
+		"/chars/alice/1108011.jpg",
+        "/chars/alice/111837.jpg",
+        "/chars/alice/1304246.jpg",
+        "/chars/alice/out3.jpg",
+        "/chars/alice/656163.jpg",
+        "/chars/alice/715606.jpg",
+        "/chars/alice/out4.jpg",
+        "/chars/alice/762900.jpg",
+        "/chars/alice/out6.jpg",
+        "/chars/alice/out7.jpg",
+        "/chars/alice/out5.jpg",
+        "/chars/alice/out8.jpg",
+        "/chars/alice/903252.png",
+        "/chars/alice/out.png",
+        "/chars/alice/out2.png",
+        "/chars/alice/Alice 572.jpg",
+        "/chars/alice/Alice 785.jpg",
+        "/chars/alice/alice-margatroid-wallpaper-full-hd-1920x1080-221113.png",
+        "/chars/alice/orz54.jpg"
           ],
           "wikiurl": "https://en.touhouwiki.net/wiki/Alice_Margatroid",
-          "leftimgoffset": "30% 0%"
+          "leftimgoffset": "50% 10%"
         },
         {
           "name": "Youmu",
