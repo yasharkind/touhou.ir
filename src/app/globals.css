@@ -201,6 +201,17 @@
   --link-color: #6464b4;
 }
 
+.scheme-chatpage {
+  --discord-embed-shadow: #aCa1c5;
+  --topbar-color: #AED4E6;
+  --background-color-start: #AED4E6;
+  --background-color-end: #741E38;
+  --content-bg-color: #AF7595;
+  --topbar-border-color: #AFA5BE;
+  --logo-color: #5C1A1B;
+  --link-color: #6464b4;
+}
+
 @media (prefers-color-scheme: dark) {
   .scheme-home {
     --discord-embed-shadow: #d5b2e0;
@@ -434,4 +445,43 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: dejavu, bkoodak, Arial, Helvetica, sans-serif;
+}
+
+.hilighted {
+	background-color: rgb(150,150,20);
+	transition: background-color .3s ease;
+}
+
+.chat-message-markdown {
+  font-family: sans-serif;
+}
+.chat-message-markdown a {
+  color: var(--link-color);
+  font-family: sans-serif;
+}
+
+.chat-message-markdown table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.chat-message-markdown th,
+.chat-message-markdown td {
+	text-align: inherit;
+	white-space: normal;
+	word-wrap: break-word;
+	word-break: break-word;
+	overflow-wrap: break-word;
+    padding: 4px;
+}
+.chat-message-markdown table tbody tr {
+	border-top: thin solid #ffffff55;
+}
+.chat-message-markdown table thead tr {
+	border-bottom: thin solid #ffffff88;
+}
+.chat-message-markdown blockquote {
+    background: #ffffff10;
+    border-left: thick solid var(--background-color-start);
+    padding: 4px 8px;
+    /*border-radius: 6px 0;*/
 }

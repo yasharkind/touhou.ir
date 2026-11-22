@@ -7,13 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-	"push": "ncftpput -R -u $FTPUSER -p $FTPPASS $FTPURL . out/*"
+    "push": "ncftpput -R -u $FTPUSER -p $FTPPASS $FTPURL . out/*"
   },
   "dependencies": {
     "motion": "^12.43.0",
     "next": "^16.2.12",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "unist-util-visit": "^5.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
